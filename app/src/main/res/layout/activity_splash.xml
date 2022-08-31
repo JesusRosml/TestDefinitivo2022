@@ -5,22 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".actividades30.SplashActivity"
-    android:background="@drawable/splash2">
-
-    <ImageView
-        android:layout_width="1000dp"
-        android:layout_height="1000dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:src="@drawable/robot1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+    android:background="@drawable/splash1">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
