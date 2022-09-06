@@ -9,6 +9,6 @@ public class pantallahome_orig extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pantallahome_orig);
+        setContentView(R.layout.fragment_inicio);
     }
 }

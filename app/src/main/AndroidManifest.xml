@@ -4,6 +4,7 @@
     package="com.jesus.testdefinitivo2022">
 
     <application
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,11 +12,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TestDefinitivo2022"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
             android:name=".pantallahome_orig"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".actividades30.SplashActivity"
             android:exported="true">
