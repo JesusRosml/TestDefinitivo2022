@@ -8,7 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import com.jesus.testdefinitivo2022.actividades30.databinding.FragmentHomeBinding;
+
+import com.jesus.testdefinitivo2022.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
 

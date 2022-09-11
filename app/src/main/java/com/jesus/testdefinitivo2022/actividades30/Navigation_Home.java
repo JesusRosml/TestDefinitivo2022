@@ -11,7 +11,9 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-import com.jesus.testdefinitivo2022.actividades30.databinding.ActivityNavigationHomeBinding;
+
+import com.jesus.testdefinitivo2022.R;
+import com.jesus.testdefinitivo2022.databinding.ActivityNavigationHomeBinding;
 
 public class Navigation_Home extends AppCompatActivity {
 

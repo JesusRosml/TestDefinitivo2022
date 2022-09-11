@@ -29,7 +29,7 @@ tools:context=".MainActivity">
             android:id="@+id/imageView"
             android:layout_width="400dp"
             android:layout_height="800dp"
-            app:srcCompat="@drawable/Iconregister2" />
+            app:srcCompat="@drawable/iconregister2" />
     </LinearLayout>
 
     <LinearLayout
