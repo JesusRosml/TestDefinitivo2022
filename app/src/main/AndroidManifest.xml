@@ -4,7 +4,6 @@
     package="com.jesus.testdefinitivo2022">
 
     <application
-
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,6 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".creacioncuenta"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_Home"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_home"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".pantallahome_orig"
             android:exported="true" />
@@ -26,10 +33,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
