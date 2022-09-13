@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.jesus.testdefinitivo2022">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
 
     <application
         android:allowBackup="true"
@@ -13,7 +17,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
         <activity
+<<<<<<< HEAD
             android:name=".creacion_datospersonales"
             android:exported="false" />
         <activity
@@ -26,6 +37,9 @@
             android:theme="@style/NoActionBar" />
         <activity
             android:name=".pantallahome_orig"
+=======
+            android:name=".fragment_inicio"
+>>>>>>> master
             android:exported="true" />
         <activity
             android:name=".actividades30.SplashActivity"
@@ -36,9 +50,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+=======
+        <activity android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+
+
+>>>>>>> master
     </application>
 
 </manifest>
