@@ -14,6 +14,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".creacion_datospersonales"
+            android:exported="false" />
+        <activity
             android:name=".creacioncuenta"
             android:exported="false" />
         <activity
@@ -35,7 +38,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
