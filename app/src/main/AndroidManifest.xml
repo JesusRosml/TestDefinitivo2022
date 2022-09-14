@@ -23,15 +23,15 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <activity
-            android:name=".creacioncuenta"
+            android:name=".actividades30.creacioncuenta"
             android:exported="false" />
         <activity
-            android:name=".Navigation_Home"
+            android:name=".actividades30.Navigation_Home"
             android:exported="false"
             android:label="@string/title_activity_navigation_home"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".pantallahome_orig"
+            android:name=".fragment_inicio"
             android:exported="true" />
         <activity
             android:name=".actividades30.SplashActivity"
@@ -44,7 +44,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true"/>
     </application>
 
 </manifest>
