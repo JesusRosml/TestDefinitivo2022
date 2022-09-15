@@ -23,12 +23,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <activity
-            android:name=".actividades30.creacioncuenta"
-<<<<<<< HEAD
-            android:name=".creacion_datospersonales"
-            android:exported="false" />
+            android:name=".actividades30.creacioncuenta"/>
         <activity
-            android:name=".creacioncuenta"
+            android:name=".actividades30.creacion_datospersonales"
             android:exported="false" />
         <activity
             android:name=".actividades30.Navigation_Home"
