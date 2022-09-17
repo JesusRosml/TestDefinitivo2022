@@ -12,4 +12,9 @@
     <color name="Fondoazul2">#9EBAF3</color>
     <color name="MoradoFuerteOpacidad">#267B1FA2</color>
 
+    <color name="gris">#BDBDBD</color>
+    <color name="grisfuerte">#9E9E9E</color>
+    <color name="negro">#424242</color>
+    <color name="negro1">#212121</color>
+
 </resources>
