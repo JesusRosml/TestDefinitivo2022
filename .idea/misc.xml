@@ -9,6 +9,8 @@
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_boton.xml" value="0.1195" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_bottom.xml" value="0.1195" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_top.xml" value="0.1195" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/contenedorprincipalopacidad.xml" value="0.14" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/fondocontenedorsecundarioone.xml" value="0.14" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/fondohome.xml" value="0.137" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.137" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/side_nav_bar.xml" value="0.137" />
@@ -24,7 +26,7 @@
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/content_navigation_home.xml" value="0.10207700101317123" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_gallery.xml" value="0.151268115942029" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_home.xml" value="0.20989583333333334" />
-        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_inicio.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_inicio.xml" value="0.22" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_slideshow.xml" value="0.151268115942029" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/nav_header_barranav_definitiv019.xml" value="0.25" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/nav_header_navigation_home.xml" value="0.151268115942029" />
@@ -49,7 +51,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.33" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>

@@ -8,23 +8,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/iphone"
+    android:background="@drawable/fondultimate4"
     tools:context=".fragments.inicioFragment">
 
-
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:layout_marginTop="0dp"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:id="@+id/map">
-
-    </fragment>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="447dp"
+        android:padding="5dp">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="0dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:id="@+id/map">
+
+        </fragment>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -68,13 +74,13 @@
                         android:padding="30dp">
 
                         <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="20dp"
-                            android:background="@drawable/fondocontenedorsecundarioone"
-                            android:gravity="left"
-                            android:orientation="vertical"
-                            android:padding="16dp">
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/fondocontenedorsecundarioone"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
 
                             <ImageView
                                 android:layout_width="100dp"
@@ -89,116 +95,185 @@
                                 android:textAlignment="center"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
-
                         </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="20dp"
-                            android:background="@drawable/fondocontenedorsecundarioone"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="16dp">
-
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:src="@drawable/fotorandom" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
-                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                android:textColor="@color/white"
-                                android:textAlignment="center"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="20dp"
-                            android:background="@drawable/fondocontenedorsecundarioone"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="16dp">
-
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:src="@drawable/fotorandom" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
-                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                android:textColor="@color/white"
-                                android:textAlignment="center"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="20dp"
-                            android:background="@drawable/fondocontenedorsecundarioone"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="16dp">
-
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:src="@drawable/fotorandom" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
-                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                android:textColor="@color/white"
-                                android:textAlignment="center"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginBottom="20dp"
-                            android:background="@drawable/fondocontenedorsecundarioone"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="16dp">
-
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="100dp"
-                                android:src="@drawable/fotorandom" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
-                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                android:textColor="@color/white"
-                                android:textAlignment="center"
-                                android:textSize="18sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-
                     </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginTop="1dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/contenedorprincipalopacidad"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/fondocontenedorsecundarioone"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/fotorandom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginTop="1dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/contenedorprincipalopacidad"
+                        android:gravity="center"
+
+                        android:orientation="vertical"
+                        android:padding="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/fondocontenedorsecundarioone"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/fotorandom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginTop="1dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/contenedorprincipalopacidad"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/fondocontenedorsecundarioone"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/fotorandom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginTop="1dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/contenedorprincipalopacidad"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/fondocontenedorsecundarioone"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:src="@drawable/fotorandom" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
 
