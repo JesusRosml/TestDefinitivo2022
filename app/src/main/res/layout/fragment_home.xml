@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@drawable/fondultimate4"
-        tools:context=".actividades30.ui.home.HomeFragment">>
+        tools:context=".actividades30.ui.home.HomeFragment">
 
 
         <LinearLayout

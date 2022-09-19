@@ -3,10 +3,12 @@ package com.jesus.testdefinitivo2022.actividades30;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -16,10 +18,11 @@ import com.jesus.testdefinitivo2022.R;
 
 import java.util.Calendar;
 
-public class creacion_datospersonales extends AppCompatActivity {
+public class creacion_datospersonales extends AppCompatActivity implements View.OnClickListener {
     TextView tvDate;
     EditText etDate;
     DatePickerDialog.OnDateSetListener setListener;
+    Button finRegistro;
 
 
     @Override
@@ -29,6 +32,8 @@ public class creacion_datospersonales extends AppCompatActivity {
 
         tvDate = findViewById(R.id.tv_date);
         etDate = findViewById(R.id.et_date);
+        finRegistro = (Button) findViewById(R.id.button_finRegister);
+        finRegistro.setOnClickListener(creacion_datospersonales.this);
 
         Calendar calendar = Calendar.getInstance();
         final int year = calendar.get(Calendar.YEAR);
@@ -70,5 +75,12 @@ public class creacion_datospersonales extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent accionfinRegistro=new Intent(this, MainActivity.class);
+        startActivity(accionfinRegistro);
+
     }
 }

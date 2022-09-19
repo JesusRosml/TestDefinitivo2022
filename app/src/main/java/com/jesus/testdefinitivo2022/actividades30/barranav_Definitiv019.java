@@ -4,11 +4,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 import com.jesus.testdefinitivo2022.R;
 import com.jesus.testdefinitivo2022.databinding.ActivityBarranavDefinitiv019Binding;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -18,7 +23,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class barranav_Definitiv019 extends AppCompatActivity {
+public class barranav_Definitiv019 extends AppCompatActivity implements OnMapReadyCallback {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityBarranavDefinitiv019Binding binding;
@@ -63,5 +68,12 @@ public class barranav_Definitiv019 extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_barranav_definitiv019);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    @Override
+    public void onMapReady(@NonNull GoogleMap googleMap) {
+        googleMap.addMarker(new MarkerOptions()
+                .position(new LatLng(18.142010, -94.486804))
+                .title("Marker"));
     }
 }
