@@ -27,261 +27,668 @@
             </fragment>
         </LinearLayout>
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_marginTop="462dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/barrarecompensa">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/iconadvertencia"/>
+
+        <TextView
+            android:id="@+id/texto00"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zona De Misiones "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="460dp"
-            android:orientation="vertical">
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
 
-            <RelativeLayout
-                android:layout_width="match_parent"
+            android:columnOrderPreserved="false"
+            android:rowCount="2" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginRight="20dp">
+                app:cardElevation="5dp">
 
-
-            </RelativeLayout>
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <GridLayout
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:alignmentMode="alignMargins"
-                    android:columnCount="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
 
-                    android:columnOrderPreserved="false"
-                    android:rowCount="2">
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="12dp"
-                        app:cardCornerRadius="5dp"
-                        app:cardElevation="5dp">
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/contenedorprincipalopacidad"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="30dp">
+                        <TextView
+                            android:id="@+id/texto0"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="20dp"
-                                android:background="@drawable/fondocontenedorsecundarioone"
-                                android:gravity="center"
-                                android:orientation="vertical"
-                                android:padding="16dp">
+                    <ImageView
 
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/fotorandom" />
-
-                                <TextView
-                                    android:id="@+id/textHome"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="2dp"
-                                    android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                    android:textAlignment="center"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="12dp"
-                        app:cardCornerRadius="5dp"
-                        android:layout_marginTop="1dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/contenedorprincipalopacidad"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="30dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="20dp"
-                                android:background="@drawable/fondocontenedorsecundarioone"
-                                android:gravity="center"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/fotorandom" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="2dp"
-                                    android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                    android:textAlignment="center"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="12dp"
-                        app:cardCornerRadius="5dp"
-                        android:layout_marginTop="1dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/contenedorprincipalopacidad"
-                            android:gravity="center"
-
-                            android:orientation="vertical"
-                            android:padding="30dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="20dp"
-                                android:background="@drawable/fondocontenedorsecundarioone"
-                                android:gravity="center"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/fotorandom" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="2dp"
-                                    android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                    android:textAlignment="center"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="12dp"
-                        app:cardCornerRadius="5dp"
-                        android:layout_marginTop="1dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/contenedorprincipalopacidad"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="30dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="20dp"
-                                android:background="@drawable/fondocontenedorsecundarioone"
-                                android:gravity="center"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/fotorandom" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="2dp"
-                                    android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                    android:textAlignment="center"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_margin="12dp"
-                        app:cardCornerRadius="5dp"
-                        android:layout_marginTop="1dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/contenedorprincipalopacidad"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:padding="30dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginBottom="20dp"
-                                android:background="@drawable/fondocontenedorsecundarioone"
-                                android:gravity="center"
-                                android:orientation="vertical"
-                                android:padding="16dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:src="@drawable/fotorandom" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="2dp"
-                                    android:text="TextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandomTextoRandom"
-                                    android:textAlignment="center"
-                                    android:textSize="18sp"
-                                    android:textStyle="bold" />
-                            </LinearLayout>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
 
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
 
-                </GridLayout>
+                        <TextView
+                            android:id="@+id/textone"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
-            </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto1"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/texttwo"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textotree"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/texttrhee"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomisio4"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textmision4"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomision6"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textmision5"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomision7"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision7"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision8"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision8"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision9"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision9"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresrecompensas"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:layout_width="375dp"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavrecompensa">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="83dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision10"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barrarecompensa"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision10"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_marginTop="1000dp"
+        android:textColor="@color/MoradoFuerteOpacidad"
+        android:id="@+id/textHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
     </RelativeLayout>

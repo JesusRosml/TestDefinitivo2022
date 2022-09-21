@@ -25,7 +25,7 @@
 
     <style name="BottomNavigation">
         <item name="android:background">@color/gris</item>
-        <item name="itemIconTint">@color/grisfuerte</item>
-        <item name="itemTextColor">@color/negro1</item>
+        <item name="itemIconTint">@color/gris</item>
+        <item name="itemTextColor">@color/gris</item>
     </style>
 </resources>

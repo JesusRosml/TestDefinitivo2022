@@ -3,28 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_barranav_definitiv019.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_creacion_datospersonales.xml" value="0.27447916666666666" />
         <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_creacioncuenta.xml" value="0.264" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_pantallahome_orig.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/app_bar_barranav_definitiv019.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/app_bar_navigation_home.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/content_barranav_definitiv019.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/content_navigation_home.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/fragment_gallery.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/fragment_inicio.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/fragment_slideshow.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/layout/nav_header_barranav_definitiv019.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android_Studio Proyectos/TestDefinitivo2022/app/src/main/res/menu/barranav__definitiv019.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_boton.xml" value="0.1195" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_bottom.xml" value="0.1195" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_recompensasboton.xml" value="0.14" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/border_top.xml" value="0.1195" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/contenedoresrecompensas.xml" value="0.137" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/contenedorprincipalopacidad.xml" value="0.14" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/fondocontenedorsecundarioone.xml" value="0.14" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/fondohome.xml" value="0.137" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.137" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/drawable/side_nav_bar.xml" value="0.137" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_barranav_definitiv019.xml" value="0.33" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_creacion_datospersonales.xml" value="0.10207700101317123" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_navigation_home.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_pantallahome_orig.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/app_bar_barranav_definitiv019.xml" value="0.33" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/app_bar_navigation_home.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/content_barranav_definitiv019.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/content_navigation_home.xml" value="0.10207700101317123" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_gallery.xml" value="0.3031496062992126" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_inicio.xml" value="0.22" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/fragment_slideshow.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/nav_header_barranav_definitiv019.xml" value="0.25" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/layout/nav_header_navigation_home.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/menu/activity_main_drawer.xml" value="0.20666666666666667" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/menu/barranav__definitiv019.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/menu/bottom_navigation.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/menu/navigation__home.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/Jesus Rosml/AndroidStudioProjects/TestDefinitivo2022/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1195" />
         <entry key="..\:/android_Studio_Projects/TestDefinitivo2022/app/src/main/res/layout/activity_main.xml" value="0.47769516728624534" />
         <entry key="..\:/android_Studio_Projects/TestDefinitivo2022/app/src/main/res/layout/activity_pantallahome_orig.xml" value="0.27447916666666666" />
@@ -38,5 +49,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

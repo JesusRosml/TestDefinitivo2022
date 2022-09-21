@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.jesus.testdefinitivo2022.MainActivity;
+
 import com.jesus.testdefinitivo2022.R;
-import com.jesus.testdefinitivo2022.fragment_inicio;
+
 
 public class creacioncuenta extends AppCompatActivity implements View.OnClickListener {
 
