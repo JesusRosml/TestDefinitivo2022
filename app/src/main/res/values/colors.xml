@@ -18,5 +18,6 @@
     <color name="negro1">#212121</color>
     <color name="barrarecompensa">#dac7ed</color>
     <color name="barranavrecompensa">#dac7ed</color>
+    <color name="barranavmisiones">#4c759e</color>
 
 </resources>

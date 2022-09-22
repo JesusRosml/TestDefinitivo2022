@@ -1,62 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        xmlns:map="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/fondultimate4"
-        tools:context=".actividades30.ui.home.HomeFragment">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="5dp">
-
-            <fragment
-                android:layout_width="match_parent"
-                android:layout_height="450dp"
-                android:layout_marginTop="0dp"
-                android:name="com.google.android.gms.maps.SupportMapFragment"
-                android:id="@+id/map">
-
-            </fragment>
-        </LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perfilusuario"
+    android:background="@drawable/fondperrfiluserprincipal">
 
     <LinearLayout
-        android:layout_marginTop="462dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/barranavmisiones">
-
-        <ImageView
-            android:layout_marginTop="5dp"
-            android:layout_width="75dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="80dp"
-            android:src="@drawable/iconadvertencia"/>
-
-        <TextView
-            android:id="@+id/texto00"
-            android:layout_marginTop="15dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Zona De Misiones "
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
+        android:layout_height="250dp"
+        android:background="@drawable/fondcontenedor1perfiluser">
     </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="28dp"
+        android:background="@drawable/contenedorperfil2">
+    </LinearLayout>
 
-    <ScrollView
-        android:layout_marginTop="520dp"
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
         android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/imguser"
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/perfilnew1"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_marginTop="520dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <GridLayout
@@ -81,12 +62,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/contenedoresmisiones"
-                    android:gravity="center"
-                    android:orientation="vertical"
+                    android:orientation="horizontal"
                     android:padding="0dp">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="40dp"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
 
@@ -115,7 +95,7 @@
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent"
                         android:background="@color/barranavmisiones"
                         android:layout_margin="0dp">
@@ -680,14 +660,7 @@
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
-    </ScrollView>
-
-    <TextView
-        android:layout_marginTop="1000dp"
-        android:textColor="@color/MoradoFuerteOpacidad"
-        android:id="@+id/textHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
 
 
-    </RelativeLayout>
+</RelativeLayout>
