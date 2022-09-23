@@ -14,17 +14,23 @@
 
     </LinearLayout>
 
-    <FrameLayout
-        android:layout_marginTop="50dp"
-        android:layout_width="810dp"
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
         android:layout_height="280dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/recompemsas12"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
 
-    </FrameLayout>
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/recompemsas12"/>
+
+       </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_marginTop="328dp"
