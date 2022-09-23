@@ -28,21 +28,21 @@
         </LinearLayout>
 
     <LinearLayout
+        android:gravity="center"
         android:layout_marginTop="462dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/barranavmisiones">
 
         <ImageView
-            android:layout_marginTop="5dp"
             android:layout_width="75dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="80dp"
             android:src="@drawable/iconadvertencia"/>
 
         <TextView
+
             android:id="@+id/texto00"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="1dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Zona De Misiones "
@@ -86,6 +86,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -93,12 +94,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/texto0"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="500 SocialCoin"
@@ -154,6 +154,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -161,12 +162,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/texto1"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 SocialCoin"
@@ -222,6 +222,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -229,12 +230,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/textotree"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="800 SocialCoin"
@@ -290,6 +290,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -297,12 +298,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/textomisio4"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1500 SocialCoin"
@@ -358,6 +358,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -365,12 +366,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/textomision6"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="2000 SocialCoin"
@@ -426,6 +426,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -433,12 +434,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/textomision7"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 x2 SocialCoin"
@@ -494,6 +494,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -501,12 +502,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/texto0mision8"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1000 SocialCoin"
@@ -562,6 +562,7 @@
                     android:padding="0dp">
 
                     <LinearLayout
+                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
@@ -569,12 +570,11 @@
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/texto0mision9"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1500 SocialCoin"
@@ -630,19 +630,19 @@
                     android:padding="0dp">
 
                     <LinearLayout
-                        android:layout_width="375dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
                         android:layout_height="35dp"
                         android:background="@color/barranavmisiones">
 
                         <ImageView
                             android:layout_width="75dp"
                             android:layout_height="35dp"
-                            android:layout_marginLeft="83dp"
                             android:src="@drawable/monedacoin"/>
 
                         <TextView
                             android:id="@+id/texto0mision10"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="500 SocialCoin"

@@ -36,13 +36,7 @@ public class barranav_Definitiv019 extends AppCompatActivity implements OnMapRea
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.appBarBarranavDefinitiv019.toolbar);
-        binding.appBarBarranavDefinitiv019.toolbar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each
