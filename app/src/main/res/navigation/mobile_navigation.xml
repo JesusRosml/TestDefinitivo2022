@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/inicioFragment">
+    app:startDestination="@+id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -22,9 +22,4 @@
         android:name="com.jesus.testdefinitivo2022.actividades30.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/inicioFragment"
-        android:name="com.jesus.testdefinitivo2022.fragments.inicioFragment"
-        android:label="fragment_inicio"
-        tools:layout="@layout/fragment_inicio" />
 </navigation>

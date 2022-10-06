@@ -4,12 +4,20 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
+    <color name="teal_700">#9fb8e5</color>
+    <color name="black">#9fb8e5</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple_1">#99CE93D8</color>
     <color name="Fondoazul1">#353A5F</color>
     <color name="Fondoazul2">#9EBAF3</color>
     <color name="MoradoFuerteOpacidad">#267B1FA2</color>
+
+    <color name="gris">#E0E0E0</color>
+    <color name="grisfuerte">#E0E0E0</color>
+    <color name="negro">#424242</color>
+    <color name="negro1">#212121</color>
+    <color name="barrarecompensa">#dac7ed</color>
+    <color name="barranavrecompensa">#dac7ed</color>
+    <color name="barranavmisiones">#4c759e</color>
 
 </resources>

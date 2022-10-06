@@ -23,8 +23,7 @@ private FragmentSlideshowBinding binding;
     binding = FragmentSlideshowBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

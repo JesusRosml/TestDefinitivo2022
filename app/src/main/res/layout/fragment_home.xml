@@ -1,23 +1,693 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".actividades30.ui.home.HomeFragment" >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondultimate4"
+        tools:context=".actividades30.ui.home.HomeFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="0dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/map">
+
+            </fragment>
+        </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="462dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/barranavmisiones">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:src="@drawable/iconadvertencia"/>
+
+        <TextView
+
+            android:id="@+id/texto00"
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zona De Misiones "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_marginTop="520dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="2" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textone"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="1. LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto1"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision2" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/texttwo"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="2. Reportar un bache que esta afectando el movimiento behicular en la AV. universidad sobre chedrahui 2."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textotree"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="800 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision3" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/texttrhee"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="3. Recoger la basura que abunda en el parque independencia."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomisio4"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision4" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textmision4"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="4. Reportar una fuga de agua ubicada entre cuathemoc y fransisco villa."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomision6"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2000 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_margin="3dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision5" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textmision5"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="5. Mision especial(entre mas rapido cumplas la mision al momento de publicarse, mas puntos te llevas) : Reportar un choque al 911."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/textomision7"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000 x2 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision6" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision7"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="6. Mision especial(si eres el primero en completar la mision, te llevas el doble de puntos del valor de la mision): Recoge la basura de todo un parque."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision8"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_margin="4dp"
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/miison7" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision8"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="7. Reportar al municipio sobre farolas de luz descompuestas en la calle Fidel Herrera Beltran en la esquina con Maestro Francisco Mata Aguilar."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision9"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision8" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/textonemision9"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="8. Plantar un arbol en una zona verde."
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginTop="0dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/contenedoresmisiones"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@color/barranavmisiones">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/monedacoin"/>
+
+                        <TextView
+                            android:id="@+id/texto0mision10"
+                            android:layout_marginTop="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500 SocialCoin"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <ImageView
+
+                        android:layout_width="200dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mision1" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/barranavmisiones"
+                        android:layout_margin="0dp">
+
+                        <TextView
+                            android:id="@+id/textonemision10"
+                            android:layout_margin="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="9. LLamar por telefono al 089(denuncia anonima) para denunciar que no han recogido la basura desde varias semanas."
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </ScrollView>
 
     <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="1000dp"
+        android:textColor="@color/MoradoFuerteOpacidad"
+        android:id="@+id/textHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
